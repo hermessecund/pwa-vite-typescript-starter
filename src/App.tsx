@@ -16,7 +16,7 @@ const smartWalletOptions = {
   gasless: true,
 };
 
-export default function App() {
+export default function Home() {
   return (
     <ThirdwebProvider
       activeChain="mumbai"
@@ -93,18 +93,3 @@ export default function App() {
   );
 }
 
-export default function Home() {
-  return (
-    <main className="main">
-      <div className="container">
-        <div className="header">
-          <h1 className="title">
-          </h1>
-          <div className="connect">
-            <ConnectWallet />
-          </div>
-        </div>
-      </div>
-    </main>
-  );
-}
