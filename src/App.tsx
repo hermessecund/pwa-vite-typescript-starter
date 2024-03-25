@@ -1,4 +1,4 @@
-import { ConnectButton } from "@thirdweb-dev/react";
+import { ConnectWallet } from "@thirdweb-dev/react";
 import "./styles/Home.css";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
           <h1 className="title">
           </h1>
           <div className="connect">
-            <ConnectButton />
+            <ConnectWallet />
           </div>
         </div>
       </div>
