@@ -10,6 +10,7 @@ import {
   phantomWallet,
   lightTheme,
 } from "@thirdweb-dev/react";
+import "./styles/Home.css";
 
 const smartWalletOptions = {
   factoryAddress: "0x83eE9EF2CE5072F44FD14bf575CA6bB2D704F734",
