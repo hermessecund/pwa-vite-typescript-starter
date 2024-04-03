@@ -1,8 +1,9 @@
 .container {
-  width: 100 %;
-  max-width: 1440 px;
-  padding: 0 1 rem;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 1rem;
   margin: 0 auto;
+  color: #B8860B; /* Darker shade of yellow */
 }
 
 .map-container {
@@ -11,41 +12,20 @@
 
 .map-container iframe {
   border: 0;
-  border-radius: 10 px; /* Rounded corners */
+  border-radius: 10px; /* Rounded corners */
   background: #f0f0f0; /* Background color */
-  margin: 20 px auto; /* Center the iframe */
+  margin: 20px auto; /* Center the iframe */
 }
 
-.gradient-text-0 {
+.gradient-text-0,
+.gradient-text-1,
+.gradient-text-2,
+.gradient-text-3 {
   background: -webkit-linear-gradient(#7AC7F9, #B0C2EB); /* Light blue to light purple */
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #0a3d62; /* Dark blue */
-}
-
-.gradient-text-1 {
-  background: -webkit-linear-gradient(#F29CF5, #8D78B7); /* Light purple to dark purple */
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #0a3d62; /* Dark blue */
-}
-
-.gradient-text-2 {
-  background: -webkit-linear-gradient(#9DB6FF, #9F9FF2); /* Light blue to light purple */
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #0a3d62; /* Dark blue */
-}
-
-.gradient-text-3 {
-  background: -webkit-linear-gradient(#B5B3F2, #7D88E3); /* Light purple to light blue */
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #0a3d62; /* Dark blue */
+  color: #B8860B; /* Darker shade of yellow */
 }
 
 .title {
@@ -67,13 +47,13 @@
 .title {
   line-height: 1.15;
   font-size: 4rem;
-  color: #0a3d62; /* Dark blue */
+  color: #B8860B; /* Darker shade of yellow */
 }
 
 .title,
 .description {
   text-align: left;
-  color: #0a3d62; /* Dark blue */
+  color: #B8860B; /* Darker shade of yellow */
 }
 
 .connect {
@@ -85,7 +65,7 @@
   margin-bottom: 2rem;
   line-height: 1.5;
   font-size: 1.5rem;
-  color: #0a3d62; /* Dark blue */
+  color: #B8860B; /* Darker shade of yellow */
 }
 
 .code {
@@ -93,7 +73,7 @@
   border-radius: 5px;
   padding: 0.5em;
   font-size: 1.1rem;
-  color: #0a3d62; /* Dark blue */
+  color: #B8860B; /* Darker shade of yellow */
 }
 
 .grid {
@@ -117,7 +97,7 @@
 
 .card-text {
   padding: 1rem;
-  color: #0a3d62; /* Dark blue */
+  color: #B8860B; /* Darker shade of yellow */
 }
 
 .card img {
@@ -138,14 +118,14 @@
 
 .card h2 {
   margin: 0 0 0.75rem 0;
-  color: #0a3d62; /* Dark blue */
+  color: #B8860B; /* Darker shade of yellow */
 }
 
 .card p {
   margin: 0;
   font-size: 1rem;
   line-height: 1.75;
-  color: #0a3d62; /* Dark blue */
+  color: #B8860B; /* Darker shade of yellow */
 }
 
 .logo {
