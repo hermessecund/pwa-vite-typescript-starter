@@ -5,7 +5,7 @@ import "./styles/globals.css";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { isInStandaloneMode } from "./utils";
 import Footer from "./Footer";
-import logo from "./images/31.jpg"; // Import your logo image here
+import logo from "./images/logo.png"; // Import your logo image here
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
@@ -49,6 +49,7 @@ export default function App() {
     <main
       className="main"
       style={{
+        position: "relative",
         width: "100vw",
         height: "100vh",
         backgroundImage: `url('/images/bg.jpg')`, // Update the path if needed
@@ -56,7 +57,7 @@ export default function App() {
         backgroundPosition: "center",
       }}
     >
-       <div style={{ position: "absolute", top: "20px", right: "20px", borderRadius: "50%", backgroundColor: "#fff", padding: "5px" }}>
+      <div style={{ position: "absolute", top: "20px", right: "20px", borderRadius: "50%", backgroundColor: "#fff", padding: "5px" }}>
         <img src={logo} alt="Logo" style={{ width: "50px", height: "50px", borderRadius: "50%" }} />
       </div>
       <div className="container">
@@ -90,21 +91,21 @@ export default function App() {
               home screen
             </div>
           )}
-  
-      <div className="map-container">
-       <iframe
-  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13225.474096078236!2d-6.7491399!3d34.0344167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda741c7c4865a09%3A0x28359510c8b5cf49!2sIBRAHIM%20CAR!5e0!3m2!1sen!2sma!4v1712114584631!5m2!1sen!2sma"
-  width="600"
-  height="450"
-  style={{ border: "2", borderRadius: "10px", background: "#f0f0f0", margin: "20px auto" }}
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-></iframe>
+
+          <div className="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13225.474096078236!2d-6.7491399!3d34.0344167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda741c7c4865a09%3A0x28359510c8b5cf49!2sIBRAHIM%20CAR!5e0!3m2!1sen!2sma!4v1712114584631!5m2!1sen!2sma"
+              width="600"
+              height="450"
+              style={{ border: "2", borderRadius: "10px", background: "#f0f0f0", margin: "20px auto" }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <Footer />
-</main>
+      <Footer />
+    </main>
   ) : (
     <ThirdwebProvider
       clientId={import.meta.env.VITE_TEMPLATE_CLIENT_ID}
