@@ -5,6 +5,7 @@ import "./styles/globals.css";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { isInStandaloneMode } from "./utils";
 import Footer from "./Footer";
+import logo from "./images/31.jpg"; // Import your logo image here
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
@@ -55,6 +56,9 @@ export default function App() {
         backgroundPosition: "center",
       }}
     >
+       <div style={{ position: "absolute", top: "20px", right: "20px", borderRadius: "50%", backgroundColor: "#fff", padding: "5px" }}>
+        <img src={logo} alt="Logo" style={{ width: "50px", height: "50px", borderRadius: "50%" }} />
+      </div>
       <div className="container">
         <div
           className="header"
