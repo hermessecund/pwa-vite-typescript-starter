@@ -5,6 +5,7 @@ import "./styles/globals.css";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { isInStandaloneMode } from "./utils";
 import Footer from "./Footer";
+import logo from "./public/images/logo.png"; // Import the logo image
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
@@ -12,9 +13,7 @@ import Footer from "./Footer";
 const activeChain = "ethereum";
 
 export default function App() {
-  const [installPromptEvent, setInstallPromptEvent] = useState<
-    any | undefined
-  >();
+  const [installPromptEvent, setInstallPromptEvent] = useState<any | undefined>();
 
   useEffect(() => {
     if (isInStandaloneMode()) {
