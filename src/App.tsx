@@ -1,10 +1,10 @@
 import { ConnectWallet } from "@thirdweb-dev/react";
 import { Link } from "react-router-dom";
-import "./styles/main.css";
+import "./styles/Main.css";
 
 // Path to logo and background image
-const logoPath = "/images/logo.png";
-const backgroundImagePath = "/images/ibc.png";
+const logoPath = "./images/logo.png";
+const backgroundImagePath = "./images/ibc.png";
 
 export default function Home() {
   return (
