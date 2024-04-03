@@ -1,7 +1,7 @@
 .container {
-  width: 100%;
-  max-width: 1440px;
-  padding: 0 1rem;
+  width: 100 %;
+  max-width: 1440 px;
+  padding: 0 1 rem;
   margin: 0 auto;
 }
 
@@ -11,9 +11,9 @@
 
 .map-container iframe {
   border: 0;
-  border-radius: 10px; /* Rounded corners */
+  border-radius: 10 px; /* Rounded corners */
   background: #f0f0f0; /* Background color */
-  margin: 20px auto; /* Center the iframe */
+  margin: 20 px auto; /* Center the iframe */
 }
 
 .gradient-text-0 {
@@ -49,7 +49,7 @@
 }
 
 .title {
-  color: gold;
+  color: gold; /* Dark yellow */
 }
 
 .title a:hover,
@@ -57,12 +57,12 @@
 .title a:active {
   text-decoration: underline;
   text-decoration-color: #8D78B7; /* Dark purple */
-  color: #0a3d62; /* Dark blue */
+  color: gold; /* Dark yellow */
 }
 
 .title {
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 4 rem;
   color: #0a3d62; /* Dark blue */
 }
 
