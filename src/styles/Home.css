@@ -5,6 +5,17 @@
   margin: 0 auto;
 }
 
+.map-container {
+  text-align: center;
+}
+
+.map-container iframe {
+  border: 0;
+  border-radius: 10px; /* Rounded corners */
+  background: #f0f0f0; /* Background color */
+  margin: 20px auto; /* Center the iframe */
+}
+
 .gradient-text-0 {
   background: -webkit-linear-gradient(#7AC7F9, #B0C2EB); /* Light blue to light purple */
   -webkit-background-clip: text;
