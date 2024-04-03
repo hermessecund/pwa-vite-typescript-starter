@@ -4,6 +4,7 @@ import Home from "./App";
 import "./styles/globals.css";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { isInStandaloneMode } from "./utils";
+import Footer from "./Footer";
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
@@ -98,6 +99,7 @@ export default function App() {
       </div>
     </div>
   </div>
+  <Footer />
 </main>
   ) : (
     <ThirdwebProvider
