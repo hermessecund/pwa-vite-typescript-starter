@@ -96,6 +96,8 @@ export default function App() {
   referrerPolicy="no-referrer-when-downgrade"
 ></iframe>
       </div>
+             </div>
+  </div>
     </main>
   ) : (
     <ThirdwebProvider
