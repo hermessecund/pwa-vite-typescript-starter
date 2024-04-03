@@ -54,9 +54,7 @@ export default function App() {
         backgroundPosition: "center",
       }}
     >
-      <div style={{ position: "absolute", top: "20px", left: "20px", borderRadius: "20", backgroundColor: "#ffffff00", padding: "5px" }}>
-        <img src="/images/ibc.png" alt="Logo" style={{ width: "50px", height: "50px", borderRadius: "50%" }} />
-      </div>
+     
       <div className="container">
         <div
           className="header"
@@ -68,7 +66,7 @@ export default function App() {
           }}
         >
           <h1 className="title">
-            Welcome to ib-car
+            ib-car
           </h1>
           {installPromptEvent ? (
             <button
