@@ -11,7 +11,9 @@ export default function Home() {
 
       {/* Navigation Bar */}
       <nav className="navbar">
-        {/* Logo */}
+         <div style={{ position: "absolute", top: "20px", left: "20px", borderRadius: "20", backgroundColor: "#ffffff00", padding: "5px" }}>
+        <img src="/images/ibc.png" alt="Logo" style={{ width: "50px", height: "50px", borderRadius: "50%" }} />
+      </div>
         <div className="logo">
          
         </div>
