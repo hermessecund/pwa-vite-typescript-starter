@@ -5,7 +5,6 @@ import "./styles/globals.css";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { isInStandaloneMode } from "./utils";
 import Footer from "./Footer";
-import logo from "./images/logo.png";
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
@@ -56,7 +55,7 @@ export default function App() {
       }}
     >
       <div style={{ position: "absolute", top: "20px", right: "20px", borderRadius: "50%", backgroundColor: "#fff", padding: "5px" }}>
-        <img src={logo} alt="Logo" style={{ width: "50px", height: "50px", borderRadius: "50%" }} />
+        <img src="/images/logo.png" alt="Logo" style={{ width: "50px", height: "50px", borderRadius: "50%" }} />
       </div>
       <div className="container">
         <div
@@ -115,7 +114,7 @@ export default function App() {
 }
 
 window.addEventListener("appinstalled", () => {
-  console.log("PWA was installed");
+  console.log("ib-car App was installed");
   // Reloading the page after installation to
   // dismiss the install button
   window.location.reload();
