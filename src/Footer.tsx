@@ -9,7 +9,7 @@ const Footer = () => {
         <span>Instagram</span>
       </div>
       <div style={{ marginTop: "10px" }}>
-        <span>&copy; Company Name</span>
+        <span>&copy; ibrahim-car</span>
         <span style={{ marginLeft: "10px" }}>{new Date().getFullYear()}</span>
       </div>
     </footer>
