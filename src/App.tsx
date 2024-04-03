@@ -7,7 +7,8 @@ const backgroundImagePath = "./images/ibc.png";
 
 export default function Home() {
   return (
-    <main className="main" style={{ backgroundImage: `url(${backgroundImagePath})` }}>
+ <main className="main" style={{ backgroundImage: `url(${backgroundImagePath})`, backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
+
       {/* Navigation Bar */}
       <nav className="navbar">
         {/* Logo */}
