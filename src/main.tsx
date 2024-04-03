@@ -56,16 +56,7 @@ export default function App() {
           }}
         >
           <h1 className="title">
-            Welcome to{" "}
-            <span className="gradient-text-0">
-              <a
-                href="https://thirdweb.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                thirdweb.
-              </a>
-            </span>
+            Welcome to ib-car
           </h1>
           {installPromptEvent ? (
             <button
