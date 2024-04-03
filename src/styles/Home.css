@@ -4,6 +4,7 @@
   padding: 0 1rem;
   margin: 0 auto;
 }
+
 .map-container {
   text-align: center;
 }
@@ -20,6 +21,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #0a3d62; /* Dark blue */
 }
 
 .gradient-text-1 {
@@ -27,6 +29,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #0a3d62; /* Dark blue */
 }
 
 .gradient-text-2 {
@@ -34,6 +37,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #0a3d62; /* Dark blue */
 }
 
 .gradient-text-3 {
@@ -41,6 +45,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #0a3d62; /* Dark blue */
 }
 
 .title a:hover,
@@ -48,16 +53,19 @@
 .title a:active {
   text-decoration: underline;
   text-decoration-color: #8D78B7; /* Dark purple */
+  color: #0a3d62; /* Dark blue */
 }
 
 .title {
   line-height: 1.15;
   font-size: 4rem;
+  color: #0a3d62; /* Dark blue */
 }
 
 .title,
 .description {
   text-align: left;
+  color: #0a3d62; /* Dark blue */
 }
 
 .connect {
@@ -69,6 +77,7 @@
   margin-bottom: 2rem;
   line-height: 1.5;
   font-size: 1.5rem;
+  color: #0a3d62; /* Dark blue */
 }
 
 .code {
@@ -76,6 +85,7 @@
   border-radius: 5px;
   padding: 0.5em;
   font-size: 1.1rem;
+  color: #0a3d62; /* Dark blue */
 }
 
 .grid {
@@ -99,6 +109,7 @@
 
 .card-text {
   padding: 1rem;
+  color: #0a3d62; /* Dark blue */
 }
 
 .card img {
@@ -119,12 +130,14 @@
 
 .card h2 {
   margin: 0 0 0.75rem 0;
+  color: #0a3d62; /* Dark blue */
 }
 
 .card p {
   margin: 0;
   font-size: 1rem;
   line-height: 1.75;
+  color: #0a3d62; /* Dark blue */
 }
 
 .logo {
@@ -150,6 +163,7 @@
 .footer {
   border-color: #DDD; /* Light gray */
 }
+
 .logo img {
   filter: invert(1);
 }
