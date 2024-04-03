@@ -49,15 +49,19 @@
 }
 
 .title {
-  color: gold; /* Dark yellow */
+  color: #B8860B; /* Darker shade of yellow */
+  background-color: #0a3d62; /* Dark blue */
+  border-radius: 20px;
+  padding: 10px 20px; /* Adjust padding as needed */
+  display: inline-block; /* Ensures the background only covers the text */
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
   text-decoration: underline;
-  text-decoration-color: #00FFGG; /* Dark purple */
-  color: gold; /* Dark yellow */
+  text-decoration-color: #8D78B7; /* Dark purple */
+  color: #B8860B; /* Darker shade of yellow */
 }
 
 .title {
