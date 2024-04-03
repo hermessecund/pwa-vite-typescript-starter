@@ -48,6 +48,10 @@
   color: #0a3d62; /* Dark blue */
 }
 
+.title {
+  color: gold;
+}
+
 .title a:hover,
 .title a:focus,
 .title a:active {
