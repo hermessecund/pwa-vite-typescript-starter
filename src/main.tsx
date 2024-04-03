@@ -47,9 +47,11 @@ export default function App() {
     <main
       className="main"
       style={{
-        backgroundImage: `url('images/bg.jpg')`,
-        backgroundSize: "cover", // adjust based on your image dimensions
-        backgroundPosition: "center", // adjust based on your image requirements
+        width: "100vw",
+        height: "100vh",
+        backgroundImage: `url('/images/bg.jpg')`, // Update the path if needed
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <div className="container">
