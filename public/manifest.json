@@ -3,14 +3,14 @@
   "name": "ib-car app",
   "icons": [
     {
-      "src": "./images/ib-logo.jpg",
-      "type": "image/jpg",
+      "src": "./images/18.png",
+      "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     },
     {
-      "src": "./images/ib-logo.jpg",
-      "type": "image/jpg",
+      "src": "./images/18.png",
+      "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     }
