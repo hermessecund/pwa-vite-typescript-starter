@@ -4,7 +4,7 @@ import "./styles/main.css";
 
 // Path to logo and background image
 const logoPath = "/images/logo.png";
-const backgroundImagePath = "/images/31.png";
+const backgroundImagePath = "/images/ibc.png";
 
 export default function Home() {
   return (
