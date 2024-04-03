@@ -1,15 +1,15 @@
 {
-  "short_name": "pwa-vite-typescript-starter",
-  "name": "PWA vite app",
+  "short_name": "ib-car",
+  "name": "ib-car app",
   "icons": [
     {
-      "src": "./images/thirdweb-logo.png",
+      "src": "./images/ib-logo.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     },
     {
-      "src": "./images/thirdweb-logo.png",
+      "src": "./images/ib-logo.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
