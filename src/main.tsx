@@ -44,7 +44,14 @@ export default function App() {
 
   // Checks if the app is openened in standalone mode or on browser
   return !isInStandaloneMode() ? (
-    <main className="main">
+    <main
+      className="main"
+      style={{
+        backgroundImage: `url('images/bg.jpg')`,
+        backgroundSize: "cover", // adjust based on your image dimensions
+        backgroundPosition: "center", // adjust based on your image requirements
+      }}
+    >
       <div className="container">
         <div
           className="header"
