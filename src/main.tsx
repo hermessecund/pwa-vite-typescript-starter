@@ -66,7 +66,7 @@ export default function App() {
           }}
         >
           <h1 className="title">
-            ib-car
+            Atelier Nabil
           </h1>
           {installPromptEvent ? (
             <button
